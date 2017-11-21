@@ -232,7 +232,7 @@ It is helpful to understand the type first:
 
 - `T` is the type of the elements we are collecting
 - `R` is the type of the result of the collection
-- `A` is the type of the partial result from the accumulator (ala reduction)
+- `A` is the type of the partial result from the accumulator (aka reduction)
 
 Each of these methods shown above in the `Collector` is returning a function that will be invoked by the `collect` method.  Except combiner, the other three methods are rather straightforward: the `supplier` supplies a "container" of type `A` for the `accumulator` to accumulate into, and finally the `finisher` converts the container into the result of type `R`.
 
