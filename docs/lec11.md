@@ -159,7 +159,7 @@ In `CompletableFuture`, the method that makes `CompletableFuture` a functor is t
 <U> CompletableFuture<U> thenApply(Function<? super T,? extends U> func)
 ```
 
-The method `thenApply` is similar to `thenAccept`, except that instead of a `Consumer`, the callback that gets invoked when the asynchronous task completes is a `Function.  
+The method `thenApply` is similar to `thenAccept`, except that instead of a `Consumer`, the callback that gets invoked when the asynchronous task completes is a `Function`.  
 
 There are other variations: 
 
