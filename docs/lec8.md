@@ -331,7 +331,7 @@ Here are more useful terminal operations:
 
 - *`noneMatch`* return true if none of the elements pass the given predicate.
 - *`allMatch`* return true if every element passes the given predicate.
-- *`anyMatch`* return true if no elements passes the given predicate.
+- *`anyMatch`* return true if any of  elements passes the given predicate.
 
 ### Example 1: Is this a prime?
 
