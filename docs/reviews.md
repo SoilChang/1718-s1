@@ -114,7 +114,7 @@ Note that the code is terse by design, and is never meant to be a positive examp
     i = j;
     j = i;
     j = (J)i;
-    I = (I)j;
+    i = (I)j;
     a = i;
     a = j;
     a = (A)i;
