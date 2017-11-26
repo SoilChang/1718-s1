@@ -136,8 +136,8 @@ Note that the code is terse by design, and is never meant to be a positive examp
     B b = new B();
     A a = b;
     C c = b;
-    A a = (A)b;
-    C c = (C)b;
+    a = (A)b;
+    c = (C)b;
     ```
 
 9. Can, or not? If can, print what?
